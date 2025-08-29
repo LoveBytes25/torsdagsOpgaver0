@@ -26,9 +26,6 @@ void setup(){
 void draw(){
   x = circleSize*counter;
   y = circleSize*rowCounter;
-  r = counter == 0? (int) random(255):r;
-  g = counter == 0? (int) random(255):g;
-  b = counter == 0? (int) random(255):b;
   
   // Un-comment this line after completing step 6.a 
   fill(r,g,b);
@@ -49,6 +46,8 @@ void draw(){
   // 2 % 3 = 2
   // 3 % 3 = 0
  
-  //Add the code for 6.c here
+  r = counter == 0? (int) random(255):r;
+  g = counter == 0? (int) random(255):g;
+  b = counter == 0? (int) random(255):b;
   
 }
