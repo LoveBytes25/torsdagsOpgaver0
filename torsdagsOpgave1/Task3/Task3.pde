@@ -25,8 +25,8 @@ if ((min+max) > 10 && (min <= 5 || max <= 5)) {
 // 3.c
 
 int x = 14;
-int y = 10;
-int z = 6;
+int y = 9;
+int z = 7;
 
 if ((x + y + z) == 30 && (x % 10 != 0) && (y % 10 != 0) && (z % 10 != 0)) {
   println("Success!");
