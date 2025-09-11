@@ -58,5 +58,4 @@ void draw (){
   ellipse(width/2,height/2,100,100);
   fill(light3); 
   ellipse(width/2,height/2+150,100,100);
- 
 }

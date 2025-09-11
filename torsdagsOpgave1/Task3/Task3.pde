@@ -24,11 +24,13 @@ if ((min+max) > 10 && (min <= 5 || max <= 5)) {
 
 // 3.c
 
-int x = 14;
-int y = 9;
-int z = 7;
+// Jeg skrev det her fordi hun sagde det var en god ide at kommentere sin kode
 
-if ((x + y + z) == 30 && (x % 10 != 0) && (y % 10 != 0) && (z % 10 != 0)) {
+int x = 20;
+int y = 10;
+int z = 0;
+
+if ((x + y + z) == 30 && (x % 10 != 0 || x == 0) && (y % 10 != 0 || y == 0) && (z % 10 != 0 || z == 0)) {
   println("Success!");
 } else {
   println("Failure!");
