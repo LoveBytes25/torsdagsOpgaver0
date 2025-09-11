@@ -11,9 +11,8 @@ void helloFromMethod (){ // 1.b
 }
 
 // Prints string that gets put into it
-void stringToString (String a) { // 1.c 
-  String message = a;
-  println(a);
+void stringToString (String word) { // 1.c 
+  println(word);
 }
 
 // 1.d 

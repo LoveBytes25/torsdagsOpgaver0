@@ -1,11 +1,11 @@
 void setup(){
   
-  divisible(3); // Call to see if it works
+  divisible(17); // Call to see if it works
 }
 
-void divisible (int a){ // Print i when i is divisible by a
+void divisible (int divisor){ // Print i when i is divisible by a
     for (int i = 1; i < 100; i++){
-      if (i % a == 0){
+      if (i % divisor == 0){
         println(i);
       }
     }

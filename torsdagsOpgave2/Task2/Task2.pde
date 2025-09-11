@@ -14,7 +14,7 @@ boolean happy = true;
    
    println(sumOfTwo(3,10)); // Test 2.b
    println(returnToUppercase("Kage!")); // Test 2.c
-   println(isFirstLetterUpper("kage..."));
+   println(isFirstLetterUpper("Kage...")); // Test 2.d
 }
 
 boolean iAmHappy(){; //Not sure about this one... 
@@ -28,16 +28,16 @@ int sumOfTwo (int a, int b){
 }
 
 // 2.c 
-String returnToUppercase(String a){
-  return a.toUpperCase(); // built-in function
+String returnToUppercase(String word){
+  return word.toUpperCase(); // built-in function
 }
 
 // 2.d 
 // Function returns true or false depending on string
-boolean isFirstLetterUpper (String a){
-  if (a.length() == 0){
+boolean isFirstLetterUpper (String word){
+  if (word.length() == 0){
     return false; // Handles a string with no letters
   }
-  char firstLetter = a.charAt(0); // Finds first letter in string
+  char firstLetter = word.charAt(0); // Finds first letter in string
   return Character.isUpperCase(firstLetter); // Tests if letter is uppercase
 }
