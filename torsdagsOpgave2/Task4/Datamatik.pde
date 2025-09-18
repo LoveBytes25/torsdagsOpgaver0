@@ -3,6 +3,7 @@ void setup(){
   // Student Kojo = new Student("Kojo", 25, false, 'A'); // Student object of self
   // Student Andreas = new Student("Andreas", 25, false, 'A'); // Student object of classmate
   
+  println(Tine.name);
   Tine.changeName("Kojo"); // Change name to Kojo
   println(Tine.name); //Print name of teacher after name change
   

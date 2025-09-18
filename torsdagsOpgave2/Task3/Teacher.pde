@@ -3,7 +3,7 @@ class Teacher { // Declare class
   int age; 
   boolean IsFemale;
   
-  Teacher (String tmpName, int tmpAge, boolean tmpIsFemale){
+  Teacher (String tmpName, int tmpAge, boolean tmpIsFemale){ // Constructor
     name = tmpName;
     age = tmpAge;
     IsFemale = tmpIsFemale;
