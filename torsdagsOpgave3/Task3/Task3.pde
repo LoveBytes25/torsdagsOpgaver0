@@ -11,18 +11,24 @@ for (String rapper : rappers){
   counter++;
 }
 
+print("\n");
+
 // For-loop: 
 for (int i = 0; i < rappers.length; i++){
   println((i + 1) + ". " + rappers[i]);
 }
 
+print("\n");
+
 // 3.d Update code so that it shows the rapper's hit
 // For-each loop: 
-int counter2 = 1; 
+counter = 1; 
 for (String rapper : rappers){
-  println(counter2 + ". " + rapper + " : \"" + hits[counter2-1] + "\"");
-  counter2++;
+  println(counter + ". " + rapper + " : \"" + hits[counter-1] + "\"");
+  counter++;
 }
+
+print("\n");
 
 // For-loop: 
 for (int i = 0; i < rappers.length; i++){

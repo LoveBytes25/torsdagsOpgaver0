@@ -17,6 +17,6 @@ void draw(){
   for (Circle circle : circles){ // 4.i Test new method with for-each loop
     fill(255,0,0);
     circle.display();
-    circle.move(30,30);
+    circle.move(250,0);
   }
 }

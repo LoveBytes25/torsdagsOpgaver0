@@ -6,11 +6,11 @@ void printPartOfWord(String fullWord, int subWordStart, int subWordEnd) {
 
 // 2.b Call method from setup
 void setup() {
-  printPartOfWord("Piece of cake", 0, 3);
+  printPartOfWord("Piece of cake", 0, 3); // First 3 letters
   printPartOfWord("Piece of cake", 0, 4); // First 4 letters
   // printPartOfWord("Piece", 4, 2); // Test error case
   // printPartOfWord("Piece", -2, 3); // Test error case
-  betterPrintPartOfWord("Piece of cake", -2, 4); // Test new function
+  betterPrintPartOfWord("Piece of cake", 0, 0); // Test new function
 }
 
 // No 2.c??
@@ -43,8 +43,13 @@ void betterPrintPartOfWord(String fullWord, int subWordStart, int subWordEnd) {
     return;
   }
 
-  if (subWordEnd > fullWord.length()) {
+  if (subWordEnd > fullWord.length()) { // If end index is larger than the length of the string 
     println("That's... out of bounds, try an end index that isn't larger than the length of the damn string");
+    return;
+  }
+  
+  if (subWordEnd == subWordStart){ // Handles empty strings
+    println("Empty string, please make the end index larger");
     return;
   }
 

@@ -16,6 +16,6 @@ class Circle {
   void move(float xChange, float yChange) { // 4.k move circle
     xposition = xposition + xChange;
     yposition = yposition + yChange;
-    ellipse(xposition, yposition, 50, -50);
+    ellipse(xposition, yposition, 20, 20);
   }
 }
