@@ -8,7 +8,7 @@ import java.io.File;
 public class Cafe {
     private ArrayList<String> coffeeMenu = new ArrayList<>();
 
-    ArrayList<String> getMenu(){ // 2.b Getter method for list
+    public ArrayList<String> getMenu(){ // 2.b Getter method for list
         return this.coffeeMenu;
     }
 
@@ -16,6 +16,7 @@ public class Cafe {
         try {
             File file = new File("data/coffees.txt");
             Scanner sc = new Scanner(file); // 2.d Add file instance on scanner object
+
             while(sc.hasNextLine()){ // 2.e Add a while-loop and add menu to ArrayList
                 coffeeMenu.add(sc.nextLine());
             }
@@ -23,7 +24,6 @@ public class Cafe {
             System.out.println("File not found");
         }
     }
-
 
 
 }

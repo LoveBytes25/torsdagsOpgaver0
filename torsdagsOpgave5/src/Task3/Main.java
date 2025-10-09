@@ -24,8 +24,8 @@ public class Main {
 
 
         // ---------- Testing ---------- //
-        // For testing methods created in 3.j and 3.k
 
+        // For testing methods created in 3.j and 3.k
         ArrayList<Room> fancyRooms = new ArrayList<>(); // Create new arraylist for testing
         fancyRooms.add(atrium);
         fancyRooms.add(corridor);
@@ -52,6 +52,7 @@ public class Main {
         System.out.println(isNormal(normalHotel)); // Expected output: False, since there are more floors (24) than rooms (4)
         System.out.println(isNormal(anormalSchool)); // Expected output: True, since there are more rooms (3) than floors (1)
     }
+    //J unit
 
     // 3.j Write method countLampsInBuilding with parameter of type Building and return type integer
     public static int countLampsInBuilding(Building b) {
