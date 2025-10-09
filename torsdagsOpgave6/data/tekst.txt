@@ -1,0 +1,5 @@
+Kojo,25,studerende,arbejde
+Nasta,22,studerende,arbejde
+Christian,23,studerende,arbejde
+Nicoline,24,studerende,arbejde
+Sussie,30,studerende,arbejde

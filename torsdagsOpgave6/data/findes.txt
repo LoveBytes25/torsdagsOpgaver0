@@ -1,0 +1,5 @@
+Kojo,25
+Nasta,22
+Christian,23
+Nicoline,24
+Sussie,30
